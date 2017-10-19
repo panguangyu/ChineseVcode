@@ -97,4 +97,4 @@ var validateTimer = setInterval(function(){
 				clearInterval(validateTimer);
 			
 			}
-},1000);
+},3000);
