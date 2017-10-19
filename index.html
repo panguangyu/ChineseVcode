@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>中文验证码 chinesevcode</title>
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" media='all' />
+	<link rel='stylesheet' href='css/index.css' />
+</head>
+<body>
+<div style='height:220px;margin-left:100px;margin-top:100px'>
+
+<!-- 验证码上方的提示 -->
+<span id='tips'>
+
+<span style='font-size:20px;font-weight:bold;color:grey;margin-top:200px'>
+
+<i class='fa fa-hand-pointer-o'></i> 请拖动滑条使多个部首在4方形框中生成一个字
+
+</span>
+
+</span>
+
+<br /><br />
+
+<!-- 验证码展示区 -->
+<span id='imgArea' style='text-align:center;'></div>
+<br /><br />
+
+<!-- 滑动条区域 (该滑动条引用自网络) -->
+<span style="font-size:18px;" id='bar'>
+
+<div class="grade_warp" >  
+    
+	<div class="User_ratings User_grade">  
+        <div class="ratings_bars">  
+        <span id="title0">0</span>  
+        <span class="bars_10"></span>  
+        <div class="scale" id="bar0">  
+        <div></div>  
+        <span id="btn0"></span>  
+        </div>  
+        <span class="bars_10">END</span>  
+        </div>  
+    </div>  
+</div>     
+        
+<script src="js/index.js"></script>
+
+</span> 
+
+<hr />
+
+<!-- 显示提示信息 -->
+
+<div style='margin-left:100px;font-size:12px;color:grey' id='infomation'>
+
+<p><i class='fa fa-info-circle'></i> 由于网速问题可能无法显示验证码，请刷新</p>
+
+<p><i class='fa fa-info-circle'></i> 当字体完成度在100%时，请释放鼠标停止移动滑块</p>
+
+</div>
+
+</div>
+</html>
+

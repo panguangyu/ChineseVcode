@@ -1,0 +1,13 @@
+  
+
+   .grade_warp{width:450;margin-left:100px;}  
+   .User_grade{width:100%;}  
+    .User_ratings {overflow: hidden;}  
+   .User_ratings .ratings_title{width:815px;height:78px;font-family:"微软雅黑","宋体";font-size:24px;color:#aaaaaa;}  
+   .User_ratings .ratings_title01{width:407px;height:auto;font-family:"微软雅黑","宋体";font-size:14px;color:#aaaaaa;}  
+   .User_ratings .ratings_bars{width:407px;height:34px;padding-top: 5px;}  
+   .User_ratings .ratings_bars #title0{width:25px;height:25px;text-align:center;border:1px solid #bfbebe;line-height:25px;font-family:Georgia, "Times New Roman", Times, serif;font-size:14px;float:left;color:#a0a0a0;margin-right:10px;background:#fff;}  
+   .User_ratings .ratings_bars .bars_10{font-family:Georgia, "Times New Roman", Times, serif;font-size:18px;line-height:25px;float:left;color:#a0a0a0;}  
+   .User_ratings .ratings_bars .scale{width:299px;height:13px;float:left;margin:7px 10px auto 10px;position:relative;background:url('../image/process.png') 0 0 no-repeat;}  
+   .User_ratings .ratings_bars .scale div{width:0px;position:absolute;width:0;left:0;height:13px;bottom:0;background:url('../image/process.png') 0 -14px no-repeat;}  
+   .User_ratings .ratings_bars .scale span{width:10px;height:26px;position:absolute;left:-2px;top:-7px;cursor:pointer;background:url('../image/process_block.png') no-repeat;}  
